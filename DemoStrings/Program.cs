@@ -18,6 +18,11 @@ namespace DemoStrings
             Console.WriteLine(joinName);//join method
             Console.WriteLine(fullName);//concatenation
             Console.WriteLine(myFullName);//format method
+
+            var path = @"Hi Mosh
+Lets look at verbatim strings
+c:\program\project\ram";//verbatim string prefix by @
+            Console.WriteLine(path);
         }
     }
 }
